@@ -8,10 +8,14 @@ const Getstarted = () => (
             <p className="font-poppins font-medium text-[18px] leading-[23px]">
               <span className="text-gradient">Get</span>
             </p>
+              <img src={arrowUp} className="w-[23px] h-[23px] object-contain"  alt="" />
         </div>
+            <p className="font-poppins font-medium text-[18px] leading-[23px]">
+              <span className="text-gradient">Started</span>
+            </p>
       </div>
       </div>
   )
 
 
-export default Getstarted
+export default Getstarted;
