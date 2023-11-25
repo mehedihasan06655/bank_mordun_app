@@ -7,7 +7,6 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-space-between items-center navbar">
-      Navbar
       <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {
